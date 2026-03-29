@@ -7,17 +7,17 @@
         "Le studio de production {company}, a produit le film {movie}"
     ],
     "/dialog/bad.tv.genre.catagory.dialog": [
-        "Je ne trouve aucune (\u00e9mission) t\u00e9l\u00e9 du genre {genre}"
+        "Je ne trouve aucune s\u00e9rie du genre {genre}."
     ],
     "/dialog/movie.genre.multiple.dialog": [
-        "Le (movie|film|flick) peut \u00eatre trouv\u00e9 dans l'un des genres; {genrelist} et {genrelistlast}.",
-        "Les gens consid\u00e8rent le (movie|film) comme un {genrelist} ou un {genrelistlast}."
+        "Ce film appartient aux genres {genrelist} et {genrelistlast}.",
+        "On classe g\u00e9n\u00e9ralement ce film parmi les genres {genrelist} et {genrelistlast}."
     ],
     "/dialog/genre.movie.search.dialog": [
-        "les films du genre {genre} sont;"
+        "Voici quelques films du genre {genre}."
     ],
     "/dialog/genre.tv.search.dialog": [
-        "les \u00e9missions (t\u00e9l\u00e9|) du genre {genre} sont;"
+        "Voici quelques s\u00e9ries du genre {genre}."
     ],
     "/dialog/no.info.dialog": [
         "Je suis d\u00e9sol\u00e9, je ne trouve aucune information sur le film {movie}"
@@ -44,8 +44,8 @@
         "Le film {movie} est sorti en {year}."
     ],
     "/dialog/movie.genre.single.dialog": [
-        "Le (movie|film) {movie} pourrait \u00eatre consid\u00e9r\u00e9 comme un {genre}.",
-        "Vous pouvez trouver le film {movie} dans la section {genre}"
+        "Le film {movie} est du genre {genre}.",
+        "On peut classer le film {movie} dans le genre {genre}."
     ],
     "/dialog/movie.production.multiple.dialog": [
         "Les studio {companies} et {lastcompany} ont produit le film {movie}",
@@ -59,7 +59,7 @@
         "Les personnes suivantes (star|play|act) dans le film {movie} ; {actorlist} et {lastactor}"
     ],
     "/dialog/bad.movie.genre.catagory.dialog": [
-        "Je ne trouve aucune (\u00e9mission) t\u00e9l\u00e9 du genre {genre}"
+        "Je ne trouve aucun film du genre {genre}."
     ],
     "/dialog/no.api.dialog": [
         "Vous devez entrer votre cl\u00e9 A P I de T M D B sur home . mycroft . A I pour utiliser la comp\u00e9tence de ma\u00eetre de cin\u00e9ma"
